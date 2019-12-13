@@ -1869,6 +1869,9 @@ footer .back-to-top a i {
 	footer .copyright span::after {
 		display: none;
 	}
+	.Typewriter__wrapper, .Typewriter__cursor{
+		font-size: 2em !important;
+	}
 }
 @media only screen and (max-width:500px) {
 	footer .footer-social-list li a {
@@ -1876,6 +1879,9 @@ footer .back-to-top a i {
 	}
 	footer .footer-social-list li span {
 		display: none;
+	}
+	.Typewriter__wrapper, .Typewriter__cursor{
+		font-size: 2em !important;
 	}
 }
 @media only screen and (max-width:400px) {
@@ -1887,6 +1893,9 @@ footer .back-to-top a i {
 	}
 	footer .back-to-top a {
 		padding: 1.2rem 2.3rem 1.5rem;
+	}
+	.Typewriter__wrapper, .Typewriter__cursor{
+		font-size: 2em !important;
 	}
 }
 
