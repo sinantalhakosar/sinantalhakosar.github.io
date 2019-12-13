@@ -1022,7 +1022,7 @@ header .social-links ul li a:focus {
 }
 .main-content-tablecell {
 	display: table-cell;
-	vertical-align: bottom;
+	vertical-align: middle;
 	z-index: 700;
 }
 .main-content-tablecell .row {
