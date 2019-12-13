@@ -1889,3 +1889,7 @@ footer .back-to-top a i {
 		padding: 1.2rem 2.3rem 1.5rem;
 	}
 }
+
+.Typewriter__wrapper, .Typewriter__cursor{
+	font-size: 5em !important;
+}
