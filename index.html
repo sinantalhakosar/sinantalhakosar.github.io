@@ -504,23 +504,19 @@
             <div class="row cta-wrap">
                 <div class="col-twelve cta-content">
                     <h2 class="h01">
-                        <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a>
+                        <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">I can change the world <i class="fa fa-globe"></i></a>
                     </h2>
 
                     <p class="lead">
-                        Looking for an awesome and reliable webhosting? Try
-                        <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">
-                            <span>DreamHost</span>
-                        </a>. Get
-                        <span>$50 off</span>
-                        when you sign up with the promocode
-                        <span>styleshout</span>.
-                        <!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
+                        But first I need the source code <i class="fa fa-code"></i>
                     </p>
 
                     <div class="action">
-                        <a class="button large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
+                        <a class="button large" onclick="hired()"><i class="fa fa-thumbs-o-up"></i></a>
                     </div>
+                    <h2 id="hired" style="color:red;visibility:hidden;font-family:cursive">
+                        ! Hired !
+                    </h2>
                 </div>
             </div>
             <!-- /cta-content -->
@@ -642,6 +638,10 @@ typewriter.typeString('Smart')
     .pauseFor(1000)
     .deleteAll()
     .start();
+
+function hired(){
+    $('#hired').css('visibility', 'visible');
+}
         </script>
     </body>
 </html>
